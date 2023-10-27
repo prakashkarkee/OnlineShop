@@ -1,0 +1,12 @@
+<div class="container">
+    <h2>New in Clothes</h2>
+    <div class="more-products">
+        <div *ngFor="let c of datacloth ">
+            <app-product>
+                <h4 class="title">{{c.title}}</h4>
+                <img class="myimg" [src]="c.img" alt="">
+                <button class="btn btn-more">{{c.button}}</button>
+            </app-product>
+        </div>
+    </div>
+</div>
