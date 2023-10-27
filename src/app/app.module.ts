@@ -8,6 +8,9 @@ import { ProductComponent } from './product/product.component';
 import { GroceryComponent } from './grocery/grocery.component';
 import { ClothesComponent } from './clothes/clothes.component';
 import { DataclothService } from './datacloth.service';
+import { FoodComponent } from './food/food.component';
+import { DrinkComponent } from './drink/drink.component';
+import { ElectronicComponent } from './electronic/electronic.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +18,10 @@ import { DataclothService } from './datacloth.service';
     HeaderComponent,
     ProductComponent,
     GroceryComponent,
-    ClothesComponent
+    ClothesComponent,
+    FoodComponent,
+    DrinkComponent,
+    ElectronicComponent
   ],
   imports: [
     BrowserModule,

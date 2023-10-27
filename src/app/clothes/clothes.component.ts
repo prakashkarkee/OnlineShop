@@ -17,11 +17,7 @@ export class ClothesComponent {
     button: string
   }[] = []
 
-  hi() {
-    console.log(this.datacloth);
-  }
-
   ngOnInit() {
-    this.hi();
+
   }
 }
