@@ -1,3 +1,6 @@
+![Front web image](src/assets/front-web.png)
+
+
 # OnlineShop
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.4.
