@@ -11,6 +11,7 @@ import { DataclothService } from './datacloth.service';
 import { FoodComponent } from './food/food.component';
 import { DrinkComponent } from './drink/drink.component';
 import { ElectronicComponent } from './electronic/electronic.component';
+import { CourseComponent } from './course/course.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { ElectronicComponent } from './electronic/electronic.component';
     ClothesComponent,
     FoodComponent,
     DrinkComponent,
-    ElectronicComponent
+    ElectronicComponent,
+    CourseComponent
   ],
   imports: [
     BrowserModule,

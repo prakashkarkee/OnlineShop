@@ -9,6 +9,7 @@ import { DrinkComponent } from './drink/drink.component';
 
 const routes: Routes = [
   { path: '', component: AppComponent },
+  { path: 'Home', component: GroceryComponent },
   { path: 'Grocery', component: GroceryComponent },
   { path: 'Electronic', component: ElectronicComponent },
   { path: 'Clothes', component: ClothesComponent },

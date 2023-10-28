@@ -10,3 +10,23 @@
         </div>
     </div>
 </div>
+<div class="sub-container">
+    <div class="course-container" *ngFor="let course of elecourse ">
+        <div class="course-card">
+            <div><img [src]="course.imageUrl" style="width: 220px; height: 140px;" alt=""></div>
+            <div class="course-name">
+                <h4>{{course.name}}</h4>
+            </div>
+            <div class="details">
+                <div class="course-type" [ngStyle]="{color: course.type === 'available'? 'green' : 'red'}">
+                    {{course.type}}
+                </div>
+                <div class="course-price"><b>Price : </b>${{course.price}}</div>
+            </div>
+            <div class="course-buttons">
+                <button class="btn btn-buy">Buy Now</button>
+                <button class="btn btn-show">Show Details</button>
+            </div>
+        </div>
+    </div>
+</div>
