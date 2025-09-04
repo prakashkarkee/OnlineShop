@@ -30,7 +30,7 @@ export class DataclothService {
     button: "Show more in spicy"
   },
   {
-    title: "crispy",
+    title: "snack",
     img: "https://thumbs.dreamstime.com/z/crispy-potato-chips-28662875.jpg?w=992",
     button: "Show more in crispy"
   },
@@ -46,7 +46,7 @@ export class DataclothService {
   }]
   drink = [
     {
-      title: "Soft Drink",
+      title: "Soft Drink and carbonated",
       img: "https://sagaciresearch.com/wp-content/uploads/2019/09/Top-10-Carbonated-Soft-Drinks-Egypt-V3.jpg",
       button: "Show more in Soft Drink"
     },
