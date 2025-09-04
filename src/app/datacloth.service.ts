@@ -51,7 +51,7 @@ export class DataclothService {
       button: "Show more in Soft Drink"
     },
     {
-      title: "Soda Drink",
+      title: "Soda Drink and cold tea",
       img: "https://www.eatthis.com/wp-content/uploads/sites/4/2021/06/soda-2.jpg",
       button: "Show more in Soda Drink"
     },
