@@ -6,7 +6,7 @@
     width: 220px;
     height: 320px;
     margin: 10px 10px;
-    background-color: #F8F9F8;
+    background-color: #F9F9F9;
 }
 
 .course-name {
@@ -15,7 +15,7 @@
 
 .details {
     display: flex;
-    margin: 10px 0px;
+    margin: 13px 0px;
 }
 
 .course-type {
@@ -24,7 +24,7 @@
 }
 
 .course-buttons {
-    display: flexbox;
+    display: flex;
 }
 
 .btn {
