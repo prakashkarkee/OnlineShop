@@ -24,7 +24,7 @@
 }
 
 .course-buttons {
-    display: flex;
+    display: flexbox;
 }
 
 .btn {
